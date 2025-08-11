@@ -28,14 +28,14 @@ const Pricing = () => {
     },
   ];
   return (
-    <section id="prices" className="flex flex-col relative p-2">
+    <section className="flex flex-col relative p-2">
       {/*part1*/}
       <div className="w-full max-w-6xl mx-auto px-3 mt-30">
         <div className="flex flex-col">
           <div className="grid grid-cols-1 md:grid-cols-2">
             {/*left side*/}
             <div className="flex flex-col">
-              <h1 className="text-4xl md:text-5xl font-semibold">
+              <h1 className="text-4xl md:text-5xl font-semibold text-gray-800">
                 Get Convenience of Transaction With New Evolution
               </h1>
               <p className="mt-5">
@@ -120,7 +120,7 @@ const Pricing = () => {
               className="absolute h-45 w-35 md:h-110 md:w-95 opacity-85 z-0 md:-mr-25"
               style={{ top: "calc(36% - 150px)", right: "calc(45% - 150px)" }}
             />
-            <p className="w-full max-w-md mx-auto px-2 text-center text-sm md:text-lg text-white font-semibold mt-13">
+            <p className="w-full max-w-md mx-auto px-2 text-center text-sm md:text-lg text-white font-semibold mt-13 z-10">
               Take on the challenge with NebulaCoin&apos;s features evaluation
               process and showcase your skills to become a funded trader.
               Achieve your trading goals and get funded in as little as 4 days.

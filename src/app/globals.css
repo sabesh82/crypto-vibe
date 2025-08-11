@@ -12,13 +12,15 @@
 .custom-metallic-text {
   background: linear-gradient(
     to bottom,
-    /* white at the top */ #ffffff,
-    /* light gray transition */ #d0d0d0,
-    /* silver at the bottom */ #c0c0c0
+    /* very light gray at the top */ #f9f9f9,
+    /* lighter silver transition */ #e0e0e0,
+    /* soft silver at the bottom */ #d8d8d8
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.25),
-    /* subtle highlight */ 0 2px 4px rgba(0, 0, 0, 0.8); /* strong shadow for depth */
-  filter: drop-shadow(0 0 4px rgba(192, 192, 192, 0.6)); /* silver glow */
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4),
+    /* more subtle highlight */ 0 2px 4px rgba(0, 0, 0, 0.4); /* softer shadow */
+  filter: drop-shadow(
+    0 0 3px rgba(210, 210, 210, 0.5)
+  ); /* lighter silver glow */
 }

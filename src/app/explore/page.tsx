@@ -118,7 +118,7 @@ const Explore = () => {
                 </p>
               </div>
 
-              <div className="flex items-center gap-0.5 md:gap-1 mt-5 bg-white/50 w-74 rounded-3xl py-1 px-1">
+              <div className="flex items-center gap-0.5 md:gap-1 mt-5 bg-white/50 w-60 md:w-85 rounded-3xl py-1 px-1">
                 <div className="flex items-center gap-2 ">
                   <IoMdMail className="size-5 text-orange-400" />
                   <input
@@ -127,9 +127,9 @@ const Explore = () => {
                     className="outline-none"
                   />
                 </div>
-                <div className="px-1.5 py-1 md:px-2 md:py-1 rounded-2xl bg-black text-white text-xs md:text-base">
-                  <button className="cursor-pointer">Sign up</button>
-                </div>
+                <button className="flex-shrink-0 px-3 py-1 md:px-4 md:py-1 rounded-2xl bg-black text-white text-xs md:text-base md:w-30 cursor-pointer">
+                  Sign up
+                </button>
               </div>
 
               <div className="mt-8 md:mt-25 flex items-center gap-0.5 md:gap-3">
@@ -209,7 +209,7 @@ const Explore = () => {
       </div>
 
       {/*graph & statistics section*/}
-      <div className="w-full max-w-7xl mx-auto mt-190 md:mt-28 px-2">
+      <div className="w-full max-w-7xl mx-auto mt-180 md:mt-28 px-2">
         <p className="text-gray-500 ">Statistics</p>
         <h1 className="text-5xl md:text-6xl font-semibold flex flex-start mb-10">
           Track Bitcoin’s Latest
@@ -219,7 +219,7 @@ const Explore = () => {
         <div className="grid grid-cols-1 md:grid-cols-[60%_40%] gap-10 w-full max-w-7xl mx-auto">
           <PriceChart />
 
-          <div className="w-73 md:w-115 mb-8 p-4 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-xl shadow-lg shadow-gray-400 border border-gray-700 font-sans text-gray-300 text-justify">
+          <div className="w-74 md:w-115 mb-8 p-4 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-xl shadow-lg shadow-gray-400 border border-gray-700 font-sans text-gray-300 text-justify">
             <h1 className="text-3xl mb-2 font-semibold">About:</h1>
             <p className="mb-4">
               ▪ This graph displays the{" "}

@@ -43,7 +43,7 @@ const page = () => {
           </div>
 
           {/*right side*/}
-          <div className="flex flex-col space-y-8 w-65 md:w-110">
+          <div className="flex flex-col space-y-8 w-72 md:w-110">
             <div className="flex flex-col">
               <div className="flex items-center justify-between">
                 <p>Who can trade here?</p>

@@ -28,7 +28,7 @@ const page = () => {
               <p>Questions</p>
             </div>
             <div className="flex flex-col mt-8 text-xs md:text-base">
-              <p>Can't find the answer you need? Explore more</p>
+              <p>Can&apos;t find the answer you need? Explore more</p>
               <p>
                 questions and answers on the{" "}
                 <span className="text-gray-600 font-bold">FAQ page</span>

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowRight, FaPlus } from "react-icons/fa";
+import { MdContentCopy } from "react-icons/md";
 
 const page = () => {
   return (
@@ -85,6 +86,21 @@ const page = () => {
               </div>
               <div className="border-t border-1 text-gray-300 mt-3"></div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col mt-20 w-full max-w-6xl mx-auto px-3 text-center items-center">
+        <h1 className="text-4xl font-semibold">Have any other questions?</h1>
+        <div className="flex flex-col mt-6 text-md md:text-lg">
+          <p>Don&apos;t hesitate to send us an email with your</p>
+          <p>enquiry or statement at:</p>
+        </div>
+        <div className="flex px-2 py-2 bg-gray-200 rounded-md mt-5 w-full max-w-sm items-center gap-4 justify-center border border-gray-300/50 shadow-lg shadow-gray-300">
+          <p className="text-md">Contact@NebulaCoin.com</p>
+          <div className="flex items-center gap-1 bg-white px-1.5 py-1 rounded-sm cursor-pointer border border-gray-400/50">
+            <p className="text-md">copy</p>
+            <MdContentCopy />
           </div>
         </div>
       </div>

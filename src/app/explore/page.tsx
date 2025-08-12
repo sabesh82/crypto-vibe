@@ -127,7 +127,7 @@ const Explore = () => {
                     className="outline-none"
                   />
                 </div>
-                <div className="px-2 py-1 rounded-2xl bg-black text-white">
+                <div className="px-1.5 py-1 md:px-2 md:py-1 rounded-2xl bg-black text-white text-xs md:text-base">
                   <button className="cursor-pointer">Sign up</button>
                 </div>
               </div>

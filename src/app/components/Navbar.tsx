@@ -2,6 +2,7 @@
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
+import { SiSaturn } from "react-icons/si";
 
 const Navbar = () => {
   const router = useRouter();
@@ -32,7 +33,8 @@ const Navbar = () => {
     <div className="w-full z-50 fixed top-5 px-2">
       <div className="w-full max-w-7xl mx-auto px-3 flex items-center justify-between h-16 bg-transparent backdrop-blur-2xl rounded-lg">
         {/*logo*/}
-        <div>
+        <div className="flex items-center gap-1.5">
+          <SiSaturn className="text-xl" />
           <p className="text-xl font-semibold cursor-pointer">NebulaCoin</p>
         </div>
 

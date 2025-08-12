@@ -68,7 +68,7 @@ const Footer = () => {
 
         <div className="w-full mt-10 border-black/15 border-t"></div>
 
-        <div className="mt-1 md:mt-6 text-xs md:text-lg">
+        <div className="mt-1 py-1 md:mt-6 text-xs md:text-lg">
           <p>@2025 NebulaCoins</p>
         </div>
       </div>

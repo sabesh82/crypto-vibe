@@ -20,8 +20,8 @@ const Navbar = () => {
       label: "Learn",
     },
     {
-      href: "/about",
-      label: "About",
+      href: "/frequent-questions",
+      label: "FAQ",
     },
   ];
 

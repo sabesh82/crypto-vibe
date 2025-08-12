@@ -17,7 +17,7 @@ const Card = ({
         <img
           src={img}
           alt=""
-          className="translate-y-10 h-80 w-120 hover:scale-107 transition duration-150"
+          className="translate-y-10 md:h-80 md:w-120 h-60 w-70 hover:scale-107 transition duration-150"
         />
       </div>
       <div className="mt-5 flex flex-col space-y-2 p-4">

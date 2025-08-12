@@ -152,7 +152,7 @@ const Explore = () => {
 
             {/*right side*/}
             <div className="flex flex-col space-y-7 md:ml-30">
-              <div className="w-75 md:w-100 rounded-3xl border border-gray-400 p-4 bg-transparent backdrop-blur-xl">
+              <div className="w-74 md:w-100 rounded-3xl border border-gray-400 p-4 bg-transparent backdrop-blur-xl">
                 <div className="flex items-center justify-between ">
                   <p className="text-md">9:41</p>
                   <div className="flex items-center gap-1.5">
@@ -219,7 +219,7 @@ const Explore = () => {
         <div className="grid grid-cols-1 md:grid-cols-[60%_40%] gap-10 w-full max-w-7xl mx-auto">
           <PriceChart />
 
-          <div className="w-74 md:w-115 mb-8 p-4 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-xl shadow-lg shadow-gray-400 border border-gray-700 font-sans text-gray-300 text-justify">
+          <div className="w-73 md:w-115 mb-8 p-4 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-xl shadow-lg shadow-gray-400 border border-gray-700 font-sans text-gray-300 text-justify">
             <h1 className="text-3xl mb-2 font-semibold">About:</h1>
             <p className="mb-4">
               ▪ This graph displays the{" "}

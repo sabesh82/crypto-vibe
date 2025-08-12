@@ -97,7 +97,7 @@ const Explore = () => {
     <section className="relative flex flex-col p-2 overflow-x-hidden">
       <div className="bg-white md:bg-[url('/hero.jpg')] bg-cover bg-center h-dvh w-full rounded-xl">
         <div className="w-full absolute top-30">
-          <div className="w-full max-w-7xl mx-auto px-2 grid grid-cols-1 md:grid-cols-2">
+          <div className="w-full max-w-7xl mx-auto px-1 grid grid-cols-1 md:grid-cols-2">
             {/*left side*/}
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
@@ -107,7 +107,7 @@ const Explore = () => {
                 </p>
               </div>
 
-              <div className="mt-7 flex flex-col space-y-6">
+              <div className="mt-7 flex flex-col space-y-6 bg-gradient-to-br from-purple-900 to-black text-transparent bg-clip-text">
                 <p className="text-6xl md:text-5xl font-semibold font-mono">
                   Your crypto journey
                   <br /> starts with trust.
@@ -211,7 +211,7 @@ const Explore = () => {
       {/*graph & statistics section*/}
       <div className="w-full max-w-7xl mx-auto mt-190 md:mt-28 px-2">
         <p className="text-gray-500 ">Statistics</p>
-        <h1 className="text-6xl font-semibold flex flex-start mb-10">
+        <h1 className="text-5xl md:text-6xl font-semibold flex flex-start mb-10">
           Track Bitcoin’s Latest
           <br /> Market Data.
         </h1>

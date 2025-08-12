@@ -214,10 +214,36 @@ const page = () => {
             </div>
           </div>
 
-          <button className="mt-27 px-4 py-2 bg-orange-400 text-white rounded-xl">
+          <button className="mt-15 md:mt-27 px-4 py-2 bg-orange-400 text-white rounded-xl">
             Buy Cryptocurrencies
           </button>
         </div>
+      </div>
+      <div className="mt-13 text-gray-300">
+        <hr />
+      </div>
+
+      {/*part4*/}
+      <div className="mt-25 w-full max-w-6xl mx-auto px-3 flex flex-col items-center">
+        <h1 className="text-4xl md:text-5xl font-semibold">
+          Register and Start buying Bitcoin
+        </h1>
+        <h2 className="mt-5 text-4xl">Choose your Coin!!!</h2>
+        <div className="flex items-center gap-2 mt-15 md:mt-25">
+          <input
+            type="text"
+            className="px-3 py-1.5 md:px-5 md:py-3 border w-45 md:w-100 rounded-3xl text-xs md:text-lg outline-none"
+            placeholder="enter your mobile number"
+          />
+          <button className="px-2 py-1 md:px-3 md:py-3.5 border-orange-700 rounded-3xl bg-orange-400 text-white border w-20 md:w-25">
+            Register
+          </button>
+        </div>
+        <p className="mt-5 text-xs md:text-sm">
+          By registering, you agree to our{" "}
+          <span className="text-gray-500 underline">Terms of Service</span> and
+          <span className="text-gray-500 underline"> Privacy Policy</span>
+        </p>
       </div>
     </section>
   );
